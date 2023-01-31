@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.texthero{
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.textcollase{
+    padding-top: 8rem;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+.lead{
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gallery{
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-collase{
+    margin-left: 3rem; 
+}
+
+.logo_mobile{
+    display: none;
+}
+
+#Contact{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    margin-top: -8rem;
+    z-index: -1;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.gallery2{
+    width: 100px;
+    height: 100px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .hero{
+        margin-top: -5rem;
+        z-index: -1;
+    }
+    .logo{
+        width: 50px;
+        height: 35px;
+    }
+    .navbar{
+        margin-top: 0rem;
+        background-color: transparent;
+        
+    }
+    .textcollase{
+        padding-top: 0rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .img-collase{
+        display:none;
+    }
+    .copyright{
+        font-size: small;
+    }
+}
